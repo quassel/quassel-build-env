@@ -4,16 +4,30 @@ FROM ubuntu:bionic
 RUN apt-get update && apt-get -qy install \
     build-essential \
     ccache \
-    cmake \
     clang \
+    cmake \
+    extra-cmake-modules \
+    gettext \
     libdbusmenu-qt5-dev \
-    libqca2-dev \
+    libkf5coreaddons-dev \
+    libkf5notifications-dev \
+    libkf5notifyconfig-dev \
+    libkf5sonnet-dev \
+    libkf5textwidgets-dev \
+    libkf5widgetsaddons-dev \
+    libkf5xmlgui-dev \
+    libldap2-dev \
+    libqca-qt5-2-dev \
+    libssl-dev \
     ninja-build \
+    pkg-config \
+    qtmultimedia5-dev \
     qtscript5-dev \
     qtwebengine5-dev \
     qttools5-dev \
     qttools5-dev-tools \
-    software-properties-common
+    software-properties-common \
+    zlib1g-dev
 
 CMD "bash"
 
