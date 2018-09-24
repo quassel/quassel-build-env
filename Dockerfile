@@ -8,6 +8,7 @@ RUN apt-get update && apt-get -qy install \
     cmake \
     extra-cmake-modules \
     gettext \
+    libboost-dev \
     libdbusmenu-qt5-dev \
     libkf5coreaddons-dev \
     libkf5notifications-dev \
