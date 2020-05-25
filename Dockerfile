@@ -1,4 +1,5 @@
-FROM ubuntu:cosmic
+# Ubuntu 19.10 "Eoan Ermine"
+FROM ubuntu:eoan
 
 # Install dependencies
 RUN apt-get update && apt-get -qy install \
