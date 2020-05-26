@@ -1,5 +1,5 @@
-# Ubuntu 19.10 "Eoan Ermine"
-FROM ubuntu:eoan
+# Ubuntu 20.04 LTS "Focal Fossa"
+FROM ubuntu:focal
 
 # Enforce non-interactive install
 ARG DEBIAN_FRONTEND=noninteractive
