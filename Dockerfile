@@ -1,8 +1,11 @@
 # Ubuntu 19.10 "Eoan Ermine"
 FROM ubuntu:eoan
 
+# Enforce non-interactive install
+ARG DEBIAN_FRONTEND=noninteractive
+
 # Install dependencies
-RUN apt-get update && apt-get -qy install \
+RUN apt-get update && apt-get -qy --no-install-recommends install \
     build-essential \
     ccache \
     clang \
