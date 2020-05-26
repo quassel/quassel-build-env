@@ -1,8 +1,11 @@
 # Ubuntu 16.04 is our current baseline
 FROM ubuntu:xenial
 
+# Enforce non-interactive install
+ARG DEBIAN_FRONTEND=noninteractive
+
 # Install dependencies
-RUN apt-get update && apt-get -qy install \
+RUN apt-get update && apt-get -qy --no-install-recommends install \
     build-essential \
     ccache \
     clang \
