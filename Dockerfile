@@ -1,5 +1,5 @@
-# Debian Stable
-FROM debian:stable
+# Debian Testing
+FROM debian:testing
 
 # Enforce non-interactive install
 ARG DEBIAN_FRONTEND=noninteractive
