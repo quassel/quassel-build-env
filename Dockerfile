@@ -1,5 +1,5 @@
-# Ubuntu 20.04 LTS "Focal Fossa"
-FROM ubuntu:focal
+# Debian Stable
+FROM debian:stable
 
 # Enforce non-interactive install
 ARG DEBIAN_FRONTEND=noninteractive
