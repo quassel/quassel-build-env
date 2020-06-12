@@ -11,6 +11,7 @@ RUN apt-get update && apt-get -qy --no-install-recommends install \
     cmake \
     extra-cmake-modules \
     gettext \
+    git \
     libboost-dev \
     libdbusmenu-qt5-dev \
     libkf5coreaddons-dev \
