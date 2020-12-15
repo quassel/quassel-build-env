@@ -1,5 +1,5 @@
-# Ubuntu 20.04 LTS "Focal Fossa"
-FROM ubuntu:focal
+# Ubuntu 20.10 "Groovy Gorilla"
+FROM ubuntu:groovy
 
 # Enforce non-interactive install
 ARG DEBIAN_FRONTEND=noninteractive
