@@ -4,6 +4,7 @@ FROM ubuntu:bionic
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Install dependencies
+RUN add-apt-repository -y ppa:git-core/ppa
 RUN apt-get update && apt-get -qy --no-install-recommends install \
     build-essential \
     ccache \
