@@ -4,10 +4,8 @@ This repository contains the Docker configurations for the supported build
 environments for [Quassel IRC][web-quassel]. The corresponding images are
 used in Quassel's CI.
 
-Please check the available branches for the various versions.
-
-Images are built by [Docker Hub][web-dockerhub] and can be pulled directly
-using the docker command:
+Images are built and pushed to [Docker Hub][web-dockerhub] by running the
+`update.sh` script. They can then be pulled directly using the docker command:
 
 `docker pull quassel/quassel-build-env:{branch}`
 
